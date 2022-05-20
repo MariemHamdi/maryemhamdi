@@ -1,7 +1,7 @@
 body{
-    color: #fff;
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #D2DFD6;
+    background-color: #0C3750 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header{
     display: flex;
@@ -16,8 +16,8 @@ header{
     left: 0;
     right: 0;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color: black;
-    color: #fff;
+    background-color: #0C3750 ;
+    color: #D2DFD6;
     z-index: 4;
 }
 .navbar ul{
@@ -34,19 +34,19 @@ header{
 .navbar ul li a{
     
     text-decoration: none;
-    font-weight: bold;
+   
     font-size: 20px;
     cursor: pointer;
     text-transform: capitalize;
-    color: #fff;
+    color: #D2DFD6;
 }
 .navbar ul li a:hover{
     color: #EDC02E;
 }
 .logo{
     text-decoration: none;
-    color: #fff;
-    font-weight: bold;
+    color: #D2DFD6;
+    
     font-size: 25px;
     text-transform: uppercase;
     line-height: 25px;
@@ -69,24 +69,18 @@ header{
     margin-left: 60px;
 }
 .container1 h2{
-    font-weight: bold;
-    font-size: 35px;
+    font-size: 25px;
     text-transform: capitalize;
 }
 .container1 h3{
-    font-weight: bold;
     font-size: 25px;
     text-align: center;
 }
 .links a{
    color: #EDC02E;
    display: block;
-   
 }
-.links a:hover{
-    color: #4CAF50;
-    
- }
+
 .fa-brands{
     padding-bottom: 30px;
     margin-top: 40px;
@@ -97,32 +91,25 @@ header{
 .fa-brands:hover{
     opacity: 0.5;
     transform: rotate(180deg)
-    
 }
 .txt{
     margin-right: 40px;
-    
 }
 button {
     background-color: #4CAF50;
     cursor: pointer;
-    margin-left: 55px;
+    margin-left: 15px;
     margin-top: 20px;
     border: none;
-    
-    padding: 15px 32px;
+     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    
-  }
-button:hover {
-    background-color: #EDC02E;
   }
 button a{
       text-decoration: none;
-      color: white;
-      font-size: 20px;
+      color: #D2DFD6;
+      font-size: 15px;
   }
 .about{
     margin-top: 100px;
@@ -133,11 +120,13 @@ button a{
 .about h2{
     text-align: center;
     text-transform: capitalize;
-    font-size: 30px;
+    font-size: 25px;
+    opacity: 0.5;
 }
 .about p{
     text-align: center;
-    line-height: 25px;
+    line-height: 30px;
+    color: #D2DFD6;
 }
 .skills{
     display: flex;
@@ -151,14 +140,16 @@ button a{
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 25px;
+    opacity: 0.5;
 }
 .content3 h1{
     padding-bottom: 20px;
+    font-size: 25px;
+    color: #359655;
 }
 .box{
-    background-color: #fff;
-    color: black;
+    background-color: #072F46;
     border-radius: 5px;
     padding-bottom: 90px;
     padding-top: 30px;
@@ -166,11 +157,6 @@ button a{
     padding-right: 70px;
     width: 200px;
     height: 160px;
-}
-.box:hover{
-    background-color: #4CAF50;
-    opacity: 0.4;
-    
 }
 .projects{
     margin-top: 130px;
@@ -182,8 +168,8 @@ button a{
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 30px;
-    font-size: 30px;
-    
+    font-size: 25px;
+    opacity: 0.5;
 }
 .contenue{
     display: grid;
@@ -213,13 +199,16 @@ button a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgba(8, 8, 8, 0.7);
+    background: rgba(3, 31, 75, 0.7);
 }
 .overlay h2{
     margin-bottom: 10px;
-    font-weight: 600;
-    font-size: 1.6rem;
+    font-size: 20px;
     text-transform: capitalize;
+    color: #fff;
+}
+.overlay p{
+    font-size: 20px;
 }
 .contenue-box:hover .overlay{
     top: 0;
@@ -239,22 +228,25 @@ button a{
 .container4 h2{
     text-align: center;
     text-transform: capitalize;
-    font-size: 30px;
+    font-size: 25px;
+    opacity: 0.5;;
 }
-.box2{
-    text-align: center;
+.box2 p{
+    text-align: justify;
 }
 .box2 h3{
    text-transform: capitalize;
+   font-size: 20px;
+   text-align: justify;
 }
 .fa-solid{
-    font-size: 35px;
+    font-size: 25px;
     color: #4CAF50;
 }
 footer{
-    background-color: #fff;
+    background-color: #D2DFD6;
     color: black;
-    padding: 25px;
+    padding: 20px;
     text-align: center;
     font-weight: bold;
 }
@@ -272,7 +264,7 @@ footer{
 }
 .menu-icon div{
     display: block;
-    background: #fff;
+    background: #D2DFD6;
     height: 2px;
     width: 24px;
     transition: 0.3s;
@@ -303,15 +295,11 @@ footer{
         left: 0;
         right: 0;
         box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-        background-color: black;
-        color: #fff;
         z-index: 4;
     }
     .logo{
         text-decoration: none;
         margin-top: 15px;
-        color: #fff;
-        font-weight: bold;
         font-size: 20px;
         text-transform: uppercase;
         line-height: 20px;
@@ -324,13 +312,10 @@ footer{
         padding: 4%;
     }
     .navbar ul li a{
-        
-        text-decoration: none;
-        
-        font-size: 20px;
+         text-decoration: none;
+         font-size: 20px;
         cursor: pointer;
         text-transform: capitalize;
-        color: #fff;
     }
     .container1{
         display: flex;
@@ -339,12 +324,12 @@ footer{
         text-align: center;
     }
     .container1 h2{
-        font-weight: bold;
-        font-size: 25px;
+        
+        font-size: 20px;
         text-transform: capitalize;
     }
     .container1 h3{
-        font-weight: bold;
+       
         font-size: 20px;
     }
    
@@ -366,10 +351,9 @@ footer{
     .about p{
         text-align: center;
         line-height: 25px;
-    }
+    } 
     .box{
-        background-color: #fff;
-        color: black;
+        background-color: #072F46;
         border-radius: 5px;
         padding-bottom: 90px;
         padding-top: 30px;
@@ -377,7 +361,7 @@ footer{
         padding-right: 50px;
         width: 180px;
         height: 150px;
-    }  
+    } 
 }
 @media (max-width:993px){
    
@@ -398,7 +382,6 @@ footer{
     .container1 h3{
         font-weight: bold;
         font-size: 20px;
-        
     }
    
     .fa-brands{
@@ -418,10 +401,10 @@ footer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
-        
     }
     .box{
         margin-left: 25px;
+        background-color: #072F46;
     }
     .contenue{
         display: block;
@@ -432,12 +415,9 @@ footer{
     .contenue-box img{
         width: 100%;
         height: 100%;
-       
-    } 
-      
+    }    
 }
 @media (max-width:797px){
-     
     .menu-icon{
         display: flex;
     }
@@ -445,7 +425,7 @@ footer{
         position: absolute;
         top: 0;
         right: -100%;
-        background: black;
+        background: #0C3750;
          width: 300px;
         height: 100vh;
         display: flex;
@@ -478,28 +458,27 @@ footer{
     .contenue-box{
         padding-bottom: 20px;
     }
+   
     .container1{
         margin-top: 120px;
-         padding-right: 10%;
+        padding-right: 10%;
         padding-left: 6%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
        
-    }
+    } /*
     .container1 img{
         border-radius: 50%;
         margin-left: 30px;
     }
     .container1 h2{
-        font-weight: bold;
         font-size: 25px;
         text-transform: capitalize;
     }
     .container1 h3{
-        font-weight: bold;
         font-size: 25px;
         text-align: center;
-    }
+    } */
     .links a{
         color: #EDC02E;
         display: inline-block;
@@ -512,7 +491,7 @@ footer{
         font-size: 35;
         transition: transform 2s;
         
-    }
+    } /*
     button {
         margin-left: 55px;
         margin-top: 20px;
@@ -521,7 +500,7 @@ footer{
       }
     button a{
           font-size: 15px;
-      }
+      } */
       .about{
         margin-top: 60px;
     }
@@ -543,13 +522,14 @@ footer{
 }
 @media (max-width:706px){
     .box{
-        padding-bottom: 20px;
+        background-color: #072F46;
+        padding-bottom: 30px;
         padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-        width: 200px;
+        padding-left: 100px;
+        padding-right: 100px;
+        width: 300px;
         height: 160px;
-        margin-left: 130px;
+        margin-left: 20px;
     }
     .box img{
         width: 40px;
@@ -557,12 +537,12 @@ footer{
     }
     .container1 img{
         border-radius: 60%;
-        margin-left: 80px;
+        margin-left: 30px;
     }
     
 }
 @media (max-width:710px){
-    .container1{
+   /* .container1{
         margin-top: 120px;
          padding-right: 10%;
         padding-left: 6%;
@@ -574,13 +554,11 @@ footer{
     }
     .txt{
         text-align: center;
-    }
+    } */
     .skills{
         display: block;
     }
     .box{
-        background-color: #fff;
-        color: black;
         border-radius: 5px;
         padding-bottom: 30px;
         padding-top: 20px;
@@ -594,17 +572,120 @@ footer{
     .box img{
         width: 40px;
         height: 40px;
+    } 
+}
+@media (max-width:680px){
+    .container1 img{
+        margin-left: 20px;
     }
     
-    
 }
-@media (max-width:472px){
+@media (max-width:645px){
+    .container1 img{
+        margin-left: 10px;
+    }
     .txt{
+        margin-left: 20px;
+    }
+    .box{
+        border-radius: 5px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-left: 70px;
+        padding-right: 70px;
+        width: 200px;
+        height: 160px;
+        margin-bottom: 20px;
+        margin-left: 150px;
+    } 
+}
+@media (max-width:638px){
+    .container1 img{
+        margin-left: 2px;
+    }
+    .txt{
+        margin-left: 10px;
+    }
+}
+@media (max-width:615px){
+    .container1 img{
+        margin-left: 2px;
+    }
+    .txt{
+        margin-left: 2px;
+    }
+}
+@media (max-width:606px){
+    .container1 img{
+        margin-left: 0px;
+    }
+    .txt{
+        margin-left: 0px;
+    }
+}
+@media (max-width:601px){
+    button {
+        /*margin-left: 55px;
+        margin-top: 20px;*/
+        border: none;
+        padding: 12px 12px;
+      }
+    button a{
+          font-size: 11px;
+      }
+      .box{
+        border-radius: 5px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-left: 70px;
+        padding-right: 70px;
+        width: 200px;
+        height: 160px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+    }  
+}
+@media (max-width:548px){
+    .container1{
+        margin-top: 120px;
+        padding-right: 10%;
+        padding-left: 6%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container1 img{
+        margin-left: 100px;
+    }
+}
+@media (max-width:510px){
+    
+    .container1 img{
         margin-left: 80px;
     }
     .box{
-        background-color: #fff;
-        color: black;
+        border-radius: 5px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-left: 70px;
+        padding-right: 70px;
+        width: 200px;
+        height: 160px;
+        margin-bottom: 20px;
+        margin-left: 80px;
+    }  
+}
+@media (max-width:472px){
+    .container1{
+        margin-top: 120px;
+        padding-right: 10%;
+        padding-left: 6%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container1 img{
+        margin-left: 60px;
+    }
+    .box{
         border-radius: 5px;
         padding-bottom: 30px;
         padding-top: 20px;
@@ -618,12 +699,18 @@ footer{
     .contact{
         display: block;
     }
+    .box2{
+        text-align: center;
+    }
+    .box2 h3{
+        text-align: center;
+    }
+    .box2 p{
+        text-align: center;
+    }
 }
 @media (max-width:470px){
-    .txt{
-        text-align: center;
-        margin-left: 70px;
-    }
+    
     .box{
         padding-bottom: 40px;
         padding-top: 15px;
@@ -640,7 +727,7 @@ footer{
         display: block;
     }
     .box{
-        padding-bottom: 40px;
+        padding-bottom: 50px;
         padding-top: 20px;
         padding-left: 70px;
         padding-right: 70px;
@@ -652,21 +739,13 @@ footer{
 }
 @media (max-width:410px){
     .container1 img{
-        margin-left: 33px;
+        margin-left: 50px;
     }
-    button {
-        margin-left: 15px;
-        margin-top: 2px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        padding-left: 40px;
-        padding-right: 40px;
-      }
-    button a{
-          font-size: 15px;
-      }
+    .txt{
+        margin-left: 30px;
+    }
       .box{
-        padding-bottom: 30px;
+        padding-bottom: 50px;
         padding-top: 10px;
         padding-left: 40px;
         padding-right: 40px;
@@ -677,11 +756,9 @@ footer{
     } 
 }
 @media (max-width:408px){
-    .container1 img{
-        margin-left: 33px;
-    }
+   
     .box{
-        padding-bottom: 30px;
+        padding-bottom: 50px;
         padding-top: 10px;
         padding-left: 40px;
         padding-right: 40px;
@@ -690,81 +767,33 @@ footer{
         margin-bottom: 20px;
         margin-left: 75px;
     }
-    button {
-        margin-left: 15px;
-        margin-top: 2px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        padding-left: 40px;
-        padding-right: 40px;
-      }
-    button a{
-          font-size: 15px;
-      } 
+   
+}
+@media (max-width:370px){
+    .container1 img{
+        margin-left: 30px;
+    }
 }
 @media (max-width:356px){
-    .container1 img{
-        border-radius: 60%;
-        margin-left: 20px;
-    }
+   
     .box{
-        padding-bottom: 30px;
+        padding-bottom: 40px;
         padding-top: 10px;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
         width: 160px;
         height: 170px;
         margin-bottom: 20px;
         margin-left: 40px;
     }
-    .container1 h2{
-        font-weight: 200;
-        font-size: 25px;
-        text-transform: capitalize;
-    }
-    .container1 h3{
-        font-weight: 200;
-        font-size: 20px;
-    }
-    button {
-        margin-left: 8px;
-        margin-top: 2px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        padding-left: 40px;
-        padding-right: 40px;
-      }
-    button a{
-          font-size: 15px;
-      }  
+  
 }
-@media (max-width:336px){
+@media (max-width:344px){
     .container1 img{
-        border-radius: 60%;
-        margin-left: 50px;
+        margin-left: 20px;
     }
-    .container1 h2{
-        font-weight: 200;
-        font-size: 25px;
-        text-transform: capitalize;
-    }
-    .container1 h3{
-        font-weight: 200;
-        font-size: 20px;
-    }
-    button {
-        margin-left: 8px;
-        margin-top: 2px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        padding-left: 40px;
-        padding-right: 40px;
-      }
-    button a{
-          font-size: 15px;
-      }
       .box{
-        padding-bottom: 30px;
+        padding-bottom: 40px;
         padding-top: 10px;
         padding-left: 40px;
         padding-right: 40px;
